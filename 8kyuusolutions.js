@@ -99,3 +99,13 @@ P.S. Each array includes only integer numbers. Output is a number too.*/
        
        return sum
      }
+
+     // 8 kyu Multiply
+
+     //This code does not execute properly. Try to figure out why.
+
+     function multiply(a, b){
+      let total = a * b;
+      return total;
+      
+    }
