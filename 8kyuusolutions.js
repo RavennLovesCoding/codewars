@@ -231,3 +231,15 @@ function solution(str){
   
   
 }
+
+//8 Kyuu Remove first and last character
+/*It's pretty straightforward. your goal is to create af unction that removes the first and last characters of a string. You're given one parameter the original string. You don't have to worry about strings with less than two characters.
+*/
+
+function removeChar(str){
+  //You got this!
+ let i = str.length - 1;
+ let nuStr = str.slice(1, i);
+ return nuStr;
+ };
+ 
