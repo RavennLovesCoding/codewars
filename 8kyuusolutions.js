@@ -213,3 +213,21 @@ Examples (input --> output):
 function numberToString(num) {
   return num.toString();
 }
+
+//8 kyu Reversed Strings
+
+// Complete the solution so that it reverses the string passed into it.
+
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+function solution(str){
+  let nuStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    nuStr += str[i];
+  }
+  
+  return nuStr
+  
+  
+}
